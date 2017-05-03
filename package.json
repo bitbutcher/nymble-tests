@@ -1,0 +1,40 @@
+{
+  "name": "nymble-tests",
+  "version": "0.0.1",
+  "description": "a collection of reusable testing utilities",
+  "keywords": [
+    "resourceful",
+    "restful",
+    "api",
+    "assertions"
+  ],
+  "homepage": "https://github.com/bitbutcher/nymble-tests",
+  "bugs": "https://github.com/bitbutcher/nymble-tests/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitbutcher/nymble-tests.git"
+  },
+  "author": "Sean M. Duncan <bitbutcher@gmail.com>",
+  "contributors": [
+    "Sean M. Duncan <bitbutcher@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0 <8.0.0",
+    "npm": ">=2.0.0 <5.0.0"
+  },
+  "dependencies": {
+    "nymble-utils": ">=0.0.1",
+    "async": ">=2.1.4",
+    "chai": ">=3.5.0",
+    "lodash": ">=4.0.0",
+    "meerkat": ">=0.7.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.2"
+  }
+}
